@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+}
+.progressBar{
+    width: 100%;
+    background: rgb(224, 219, 219);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.myBar{
+    width: 10%;
+    background: rgb(101, 91, 235);
+    color: white;
+    text-align: center;
+    transition: 1s;
+}
+
+.quote-area{
+    max-width: 600px;
+    margin: 30px auto;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+}
+textarea:hover{
+    border: 1px solid lightblue;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    background: rgb(101, 91, 235);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    border: 1px solid lightblue;
+}
+#quote-group{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.quoteItem{
+    border: 1px solid lightgray;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(146, 143, 143);
+    margin: 0 20px 20px 0;
+}
+#item:hover{
+    background: rgb(253, 209, 216);
+}
+.info{
+    background: rgb(152, 213, 241);
+    color:  rgb(40, 33, 150);
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 0;
+}
